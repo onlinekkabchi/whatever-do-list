@@ -1,0 +1,19 @@
+@import "./table.scss";
+@import "./font.scss";
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Pretendard-Regular";
+  h1 {
+    padding-left: 50px;
+  }
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

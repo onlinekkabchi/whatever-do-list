@@ -1,0 +1,27 @@
+table {
+  font-family: "Pretendard-Regular";
+  font-size: 12px;
+  tbody {
+    :first-child {
+      font-weight: 700;
+    }
+    tr {
+      td {
+        width: auto;
+        padding-inline: 10px;
+        padding-block: 10px;
+        border: 1px solid black;
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  table {
+    font-size: 15px;
+  }
+}
