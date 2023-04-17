@@ -35,10 +35,10 @@ const columns = (column) =>
 function TodoList(props) {
   const data = props.data;
 
-  useEffect(() => {
-    console.log("data");
-    console.log(data);
-  });
+  // useEffect(() => {
+  //   console.log("data");
+  //   console.log(data);
+  // });
 
   return (
     <table>
@@ -93,7 +93,15 @@ function App() {
           </g>
         </svg>
       </header>
-      <main>{data ? <TodoList data={data} /> : <div>no data</div>}</main>
+      <main>
+        {data ? <TodoList data={data} /> : <aside>데이터 가져오는 중!</aside>}
+      </main>
+      <footer>
+        <h3>쏘냐&나단 프로젝트</h3>
+        <p>
+          이 페이지는 React + Google App Script + Netlify 로 만들어졌습니다.
+        </p>
+      </footer>
     </div>
   );
 }

@@ -1,19 +1,42 @@
 @import "./table.scss";
 @import "./font.scss";
 
+body {
+  font-family: "Cafe24Simplehae";
+}
+
 header {
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Pretendard-Regular";
   h1 {
     padding-left: 50px;
   }
 }
 
+aside {
+  font-weight: 700;
+}
+
 main {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+footer {
+  padding-block: 3%;
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+    margin-block: 5px;
+  }
+  p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
 }

@@ -3,6 +3,7 @@ table {
   font-size: 12px;
 }
 table tbody :first-child {
+  color: brown;
   font-weight: 700;
 }
 table tbody tr td {
@@ -18,13 +19,8 @@ table tbody tr td svg {
 
 @media (min-width: 768px) {
   table {
-    font-size: 15px;
+    font-size: 14px;
   }
-}
-@font-face {
-  font-family: "LINESeedKR-Bd";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2") format("woff2");
-  font-style: normal;
 }
 @font-face {
   font-family: "Pretendard-Regular";
@@ -33,26 +29,49 @@ table tbody tr td svg {
   font-style: normal;
 }
 @font-face {
-  font-family: "NEXON Lv1 Gothic OTF";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+  font-family: "Cafe24Simplehae";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
+body {
+  font-family: "Cafe24Simplehae";
+}
+
 header {
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Pretendard-Regular";
 }
 header h1 {
   padding-left: 50px;
 }
 
+aside {
+  font-weight: 700;
+}
+
 main {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+footer {
+  padding-block: 3%;
+}
+footer h3 {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  margin-block: 5px;
+}
+footer p {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,7 @@ table {
   font-size: 12px;
   tbody {
     :first-child {
+      color: brown;
       font-weight: 700;
     }
     tr {
@@ -22,6 +23,6 @@ table {
 
 @media (min-width: 768px) {
   table {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
