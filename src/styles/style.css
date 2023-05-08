@@ -4,13 +4,13 @@ table {
 }
 table tbody :first-child {
   color: brown;
-  font-weight: 700;
+  font-weight: 600;
 }
 table tbody tr td {
   width: auto;
   padding-inline: 10px;
   padding-block: 10px;
-  border: 1px solid black;
+  border-bottom: 1px solid rgb(66, 66, 66);
 }
 table tbody tr td svg {
   width: 20px;
